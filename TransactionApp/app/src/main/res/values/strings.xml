@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">TransactionApp</string>
+    <string name="tab">tab</string>
+    <string name="page">page</string>
+</resources>
