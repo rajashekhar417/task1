@@ -107,10 +107,13 @@ class TransactionDetails : AppCompatActivity() {
 
         title.setColor(ContextCompat.getColor(this, R.color.black))
 
-        canvas.drawText("Transaction Status : " + status, 100F, 100F, title)
-        canvas.drawText("Transaction Amount : " + amount, 100F, 80F, title)
-        canvas.drawText("Transaction DateTime : " + datetime, 100F, 60F, title)
         canvas.drawText("Narration : " + narration, 100F, 40F, title)
+        canvas.drawText("Transaction DateTime : " + datetime, 100F, 60F, title)
+        canvas.drawText("Transaction Amount : " + amount, 100F, 80F, title)
+        canvas.drawText("Transaction Status : " + status, 100F, 100F, title)
+       
+       
+       
         title.typeface = Typeface.defaultFromStyle(Typeface.NORMAL)
         title.setColor(ContextCompat.getColor(this, R.color.black))
         title.textSize = 15F
